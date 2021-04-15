@@ -12,11 +12,9 @@ function claro(){
     const valor = document.querySelector(".texto").value;
     const objeto = {text:valor};
 
-    setTimeout(finale, 2000);
-
-   /* const promessa = axios.post('#',objeto);
-    promessa.then(finale);
-    promessa.catch(tentaDeNovo);*/
+    const mensagem = axios.post('https://bootbar.maroto.dev/questions', objeto);
+    mensagem.then(finale);
+    mensagem.catch(tentaDeNovo);
 }
 
 function finale(){
