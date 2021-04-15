@@ -1,0 +1,135 @@
+body{
+    display: flex;
+    background-image: url("../img/7abb5e90d59c587bff5bc6e5f1f457bb0842edf3.webp");
+    background-size: cover;
+}
+
+.aba-pergunta{
+    position: fixed;
+    top: calc((100vh - 500px)/2);
+    left: calc((100vw - 500px)/2);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 500px;
+    height: 500px;
+    border-radius: 20%;
+    padding: 50px;
+
+    background-color:#fff;
+    border: 2px solid #6d6d6d;
+}
+
+.aba-pergunta .titulo{
+    font-family: 'Homemade Apple', cursive;
+    font-size: 50px;
+    height: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo img{
+    height: 100%;
+}
+
+.aba-pergunta .texto{
+    width: 300px;
+    height: 50px;
+
+    border-radius: 10px;
+
+    background-color: #fff;
+    border-color: #9d9d9d;
+
+    text-align: center;
+    font-weight: bold;
+}
+
+.aba-pergunta .botao{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+
+    background-color: #00b818;
+
+    font-size: 20px;
+}
+
+.escondido{
+    visibility: hidden;
+}
+
+.confirmacao{
+    width: 700px;
+    height: 700px;
+    border-radius: 20px;
+
+    position: fixed;
+    top: calc((100vh - 700px)/2);
+    left: calc((100vw - 700px)/2);
+
+    background-color: rgba(240, 226, 24, 0.98);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    text-align: center;
+}
+
+.confirmacao .atencao{
+    font-size: 100px;
+}
+
+.confirmacao .descricao{
+    font-size: 30px;
+}
+
+.confirmacao .claro{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+
+    background-color: #00b818;
+    color: #fff;
+
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+
+}
+
+.confirmacao .nunca{
+    width: 200px;
+    height: 80px;
+    border-radius: 10px;
+
+    background-color: #a50707;
+    color: #fff;
+
+    font-size: 30px;
+
+}
+
+.finalizar{
+    position: fixed;
+    top: 50px;
+    left: calc((100vw - 500px)/2);
+
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid #6d6d6d;
+    
+    background-color: #fff;
+
+    font-size: 50px;
+    text-align: center;
+
+}
